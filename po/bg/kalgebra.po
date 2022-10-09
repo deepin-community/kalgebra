@@ -1,0 +1,855 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Svetoslav Alexandrov AKA Zvezdichko <saturn@gbg.bg>, 2008.
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2008.
+# Yasen Pramatarov <yasen@lindeas.com>, 2009, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kalgebra\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-07 00:14+0000\n"
+"PO-Revision-Date: 2012-06-20 11:46+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@ludost.net>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: consolehtml.cpp:167
+#, fuzzy, kde-format
+#| msgid " <a href='%1'>%2</a>"
+msgid " <a href='kalgebra:%1'>%2</a>"
+msgstr " <a href='%1'>%2</a>"
+
+#: consolehtml.cpp:172
+#, fuzzy, kde-format
+#| msgid "Operations"
+msgid "Options: %1"
+msgstr "Операции"
+
+#: consolehtml.cpp:221
+#, kde-format
+msgid "Paste \"%1\" to input"
+msgstr ""
+
+#: consolemodel.cpp:87
+#, kde-format
+msgid "Paste to Input"
+msgstr ""
+
+#: consolemodel.cpp:89
+#, kde-format
+msgid "<ul class='error'>Error: <b>%1</b><li>%2</li></ul>"
+msgstr "<ul class='error'>Грешка: <b>%1</b><li>%2</li></ul>"
+
+#: consolemodel.cpp:111
+#, kde-format
+msgid "Imported: %1"
+msgstr ""
+
+#: consolemodel.cpp:113
+#, kde-format
+msgid "<ul class='error'>Error: Could not load %1. <br /> %2</ul>"
+msgstr "<ul class='error'>Грешка: Не може да се зареди %1. <br /> %2</ul>"
+
+#: dictionary.cpp:44
+#, kde-format
+msgid "Information"
+msgstr "Информация"
+
+#: dictionary.cpp:67 dictionary.cpp:68 dictionary.cpp:69 dictionary.cpp:70
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: functionedit.cpp:47
+#, kde-format
+msgid "Add/Edit a function"
+msgstr "Добавяне/Редактиране на функция"
+
+#: functionedit.cpp:92
+#, kde-format
+msgid "Preview"
+msgstr "Преглед"
+
+#: functionedit.cpp:99
+#, kde-format
+msgid "From:"
+msgstr "От:"
+
+#: functionedit.cpp:101
+#, kde-format
+msgid "To:"
+msgstr "До:"
+
+#: functionedit.cpp:104
+#, fuzzy, kde-format
+#| msgid "Operations"
+msgid "Options"
+msgstr "Операции"
+
+#: functionedit.cpp:109
+#, kde-format
+msgid "OK"
+msgstr "ОК"
+
+#: functionedit.cpp:111
+#, fuzzy, kde-format
+#| msgid "Remove '%1'"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Премахване на \"%1\""
+
+#: functionedit.cpp:238
+#, kde-format
+msgid "The options you specified are not correct"
+msgstr ""
+
+#: functionedit.cpp:243
+#, kde-format
+msgid "Downlimit cannot be greater than uplimit"
+msgstr ""
+
+#: kalgebra.cpp:74
+#, kde-format
+msgid "Plot 2D"
+msgstr ""
+
+#: kalgebra.cpp:95
+#, kde-format
+msgid "Plot 3D"
+msgstr ""
+
+#: kalgebra.cpp:120
+#, kde-format
+msgid "Session"
+msgstr "Сесия"
+
+#: kalgebra.cpp:139 kalgebra.cpp:238
+#, kde-format
+msgid "Variables"
+msgstr "Променливи"
+
+#: kalgebra.cpp:158
+#, fuzzy, kde-format
+#| msgid "A calculator"
+msgid "&Calculator"
+msgstr "Калкулатор"
+
+#: kalgebra.cpp:170
+#, fuzzy, kde-format
+#| msgid "A calculator"
+msgid "C&alculator"
+msgstr "Калкулатор"
+
+#: kalgebra.cpp:172
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Load Script..."
+msgstr "&Зареждане на скрипт..."
+
+#: kalgebra.cpp:174
+#, kde-format
+msgid "Recent Scripts"
+msgstr "Скорошни скриптове"
+
+#: kalgebra.cpp:178
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Save Script..."
+msgstr "&Запис на скрипт..."
+
+#: kalgebra.cpp:180
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Export Log..."
+msgstr ""
+
+#: kalgebra.cpp:183
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Insert ans..."
+msgstr ""
+
+#: kalgebra.cpp:185
+#, kde-format
+msgid "Execution Mode"
+msgstr "Режим на изпълнение"
+
+#: kalgebra.cpp:187
+#, fuzzy, kde-format
+#| msgid "A calculator"
+msgctxt "@item:inmenu"
+msgid "Calculate"
+msgstr "Калкулатор"
+
+#: kalgebra.cpp:188
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Value"
+msgctxt "@item:inmenu"
+msgid "Evaluate"
+msgstr "Стойност"
+
+#: kalgebra.cpp:208
+#, kde-format
+msgid "Functions"
+msgstr "Функции"
+
+#: kalgebra.cpp:220
+#, kde-format
+msgid "List"
+msgstr "Списък"
+
+#: kalgebra.cpp:226 kalgebra.cpp:458
+#, kde-format
+msgid "&Add"
+msgstr "&Добавяне"
+
+#: kalgebra.cpp:242
+#, kde-format
+msgid "Viewport"
+msgstr ""
+
+#: kalgebra.cpp:246
+#, kde-format
+msgid "&2D Graph"
+msgstr "&2D диаграма"
+
+#: kalgebra.cpp:258
+#, kde-format
+msgid "2&D Graph"
+msgstr "2&D диаграма"
+
+#: kalgebra.cpp:260
+#, kde-format
+msgid "&Grid"
+msgstr "&Координатна мрежа"
+
+#: kalgebra.cpp:261
+#, kde-format
+msgid "&Keep Aspect Ratio"
+msgstr "&Запазване на пропорциите"
+
+#: kalgebra.cpp:269
+#, kde-format
+msgid "Resolution"
+msgstr "Разделителна способност"
+
+#: kalgebra.cpp:270
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Poor"
+msgstr "Слабо"
+
+#: kalgebra.cpp:271
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Normal"
+msgstr "Нормално"
+
+#: kalgebra.cpp:272
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Fine"
+msgstr "Добре"
+
+#: kalgebra.cpp:273
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Very Fine"
+msgstr "Много добре"
+
+#: kalgebra.cpp:307
+#, kde-format
+msgid "&3D Graph"
+msgstr "&3D диаграма"
+
+#: kalgebra.cpp:315
+#, kde-format
+msgid "3D &Graph"
+msgstr "3D &диаграма"
+
+#: kalgebra.cpp:318
+#, kde-format
+msgid "&Reset View"
+msgstr "&Анулиране на изгледа"
+
+#: kalgebra.cpp:320
+#, kde-format
+msgid "Dots"
+msgstr "Точки"
+
+#: kalgebra.cpp:321
+#, kde-format
+msgid "Lines"
+msgstr "Линии"
+
+#: kalgebra.cpp:322
+#, kde-format
+msgid "Solid"
+msgstr "Плътно"
+
+#: kalgebra.cpp:339
+#, kde-format
+msgid "Operations"
+msgstr "Операции"
+
+#: kalgebra.cpp:343
+#, kde-format
+msgid "&Dictionary"
+msgstr "&Речник"
+
+#: kalgebra.cpp:354
+#, kde-format
+msgid "Look for:"
+msgstr "Търсене:"
+
+#: kalgebra.cpp:447
+#, kde-format
+msgid "&Editing"
+msgstr "&Редактиране"
+
+#: kalgebra.cpp:504
+#, kde-format
+msgid "Choose a script"
+msgstr "Изберете скрипт"
+
+#: kalgebra.cpp:504 kalgebra.cpp:520
+#, kde-format
+msgid "Script (*.kal)"
+msgstr "Скрипт (*.kal)"
+
+#: kalgebra.cpp:531
+#, kde-format
+msgid "HTML File (*.html)"
+msgstr "Файл HTML (*.html)"
+
+#: kalgebra.cpp:554
+#, kde-format
+msgid ", "
+msgstr ", "
+
+#: kalgebra.cpp:554
+#, fuzzy, kde-format
+#| msgid "Error: %1"
+msgid "Errors: %1"
+msgstr "Грешка: %1"
+
+#: kalgebra.cpp:592
+#, kde-format
+msgid "Select where to put the rendered plot"
+msgstr ""
+
+#: kalgebra.cpp:592
+#, fuzzy, kde-format
+#| msgid ""
+#| "*.png|Image File\n"
+#| "*.svg|SVG File"
+msgid "Image File (*.png);;SVG File (*.svg)"
+msgstr ""
+"*.png|PNG изображение\n"
+"*.svg|SVG файл"
+
+#: kalgebra.cpp:649
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "Готово"
+
+#: kalgebra.cpp:683
+#, kde-format
+msgid "Add variable"
+msgstr "Добавяне на променлива"
+
+#: kalgebra.cpp:687
+#, kde-format
+msgid "Enter a name for the new variable"
+msgstr "Въведете име за новата променлива"
+
+#: main.cpp:30
+#, fuzzy, kde-format
+#| msgid "A calculator"
+msgid "A portable calculator"
+msgstr "Калкулатор"
+
+#: main.cpp:31
+#, fuzzy, kde-format
+#| msgid "(C) 2006-2010 Aleix Pol Gonzalez"
+msgid "(C) 2006-2016 Aleix Pol i Gonzalez"
+msgstr "(C) 2006-2010 Aleix Pol Gonzalez"
+
+#: main.cpp:33
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: main.cpp:33
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: varedit.cpp:33
+#, kde-format
+msgid "Add/Edit a variable"
+msgstr "Добавяне/Редактиране на променлива"
+
+#: varedit.cpp:38
+#, fuzzy, kde-format
+#| msgid "Variables"
+msgid "Remove Variable"
+msgstr "Променливи"
+
+#: varedit.cpp:63
+#, kde-format
+msgid "Edit '%1' value"
+msgstr "Редактиране на \"%1\""
+
+#: varedit.cpp:65
+#, kde-format
+msgid "not available"
+msgstr "не е налично"
+
+#: varedit.cpp:98
+#, kde-format
+msgid "<b style='color:#090'>%1 := %2</b>"
+msgstr "<b style='color:#090'>%1 := %2</b>"
+
+#: varedit.cpp:101
+#, kde-format
+msgid "<b style='color:red'>WRONG</b>"
+msgstr "<b style='color:red'>ГРЕШНО</b>"
+
+#: viewportwidget.cpp:46
+#, kde-format
+msgid "Left:"
+msgstr ""
+
+#: viewportwidget.cpp:47
+#, kde-format
+msgid "Top:"
+msgstr ""
+
+#: viewportwidget.cpp:48
+#, kde-format
+msgid "Width:"
+msgstr "Широчина:"
+
+#: viewportwidget.cpp:49
+#, kde-format
+msgid "Height:"
+msgstr "Височина:"
+
+#: viewportwidget.cpp:51
+#, kde-format
+msgid "Apply"
+msgstr "Прилагане"
+
+#~ msgid "C&onsole"
+#~ msgstr "К&онзола"
+
+#~ msgid "&Console"
+#~ msgstr "&Конзола"
+
+#~ msgid "Aleix Pol Gonzalez"
+#~ msgstr "Aleix Pol Gonzalez"
+
+#~ msgid "Percy Camilo Triveño Aucahuasi"
+#~ msgstr "Percy Camilo Triveño Aucahuasi"
+
+#~ msgid "<b>Formula</b>"
+#~ msgstr "<b>Формула</b>"
+
+#, fuzzy
+#~| msgctxt "3D graph done in x miliseconds"
+#~| msgid "Done: %1ms"
+#~ msgctxt "3D graph done in x milliseconds"
+#~ msgid "Done: %1ms"
+#~ msgstr "Готово: %1 мс"
+
+#~ msgid "Error: %1"
+#~ msgstr "Грешка: %1"
+
+#~ msgctxt "@action:button"
+#~ msgid "Clear"
+#~ msgstr "Изчистване"
+
+#~ msgid "*.png|PNG File"
+#~ msgstr "*.png|PNG файл"
+
+#~ msgctxt "text ellipsis"
+#~ msgid "%1..."
+#~ msgstr "%1..."
+
+#~ msgid "&Transparency"
+#~ msgstr "&Прозрачност"
+
+#~ msgid "Type"
+#~ msgstr "Вид"
+
+#~ msgid "To Expression"
+#~ msgstr "Към израз"
+
+#~ msgid "To MathML"
+#~ msgstr "Към MathML"
+
+#~ msgid "Simplify"
+#~ msgstr "Опростяване"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Example"
+#~ msgid "Examples"
+#~ msgstr "Пример"
+
+#~ msgid "We can only draw Real results."
+#~ msgstr "Можем да изобразим само реален резултати."
+
+#~ msgid "center"
+#~ msgstr "център"
+
+#~ msgctxt "@title:column"
+#~ msgid "Name"
+#~ msgstr "Име"
+
+#~ msgctxt "@title:column"
+#~ msgid "Function"
+#~ msgstr "Функция"
+
+#~ msgid "%1 function added"
+#~ msgstr "Добавена е %1 функция"
+
+#~ msgid "Hide '%1'"
+#~ msgstr "Скриване на \"%1\""
+
+#~ msgid "Show '%1'"
+#~ msgstr "Показване на \"%1\""
+
+#~ msgid "Selected viewport too small"
+#~ msgstr "Избраният порт е много малък"
+
+#~ msgctxt "@title:column"
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgctxt "@title:column"
+#~ msgid "Parameters"
+#~ msgstr "Параметри"
+
+#~ msgctxt "@title:column"
+#~ msgid "Example"
+#~ msgstr "Пример"
+
+#~ msgid "%1("
+#~ msgstr "%1("
+
+#~ msgid "%1... parameters, ...%2)"
+#~ msgstr "%1... параметри, ...%2)"
+
+#~ msgid "par%1"
+#~ msgstr "par%1"
+
+#~ msgid "Addition"
+#~ msgstr "Събиране"
+
+#~ msgid "Multiplication"
+#~ msgstr "Умножение"
+
+#~ msgid "Division"
+#~ msgstr "Делене"
+
+#~ msgid "Power"
+#~ msgstr "Степен"
+
+#~ msgid "Remainder"
+#~ msgstr "Остатък"
+
+#~ msgid "Quotient"
+#~ msgstr "Частно"
+
+#~ msgid "The factor of"
+#~ msgstr "Коефициент на"
+
+#~ msgid "Factorial. factorial(n)=n!"
+#~ msgstr "Факториел. факториел(n)=n!"
+
+#~ msgid "Function to calculate the sine of a given angle"
+#~ msgstr "Функция да пресмята синуса на даден ъгъл"
+
+#~ msgid "Function to calculate the cosine of a given angle"
+#~ msgstr "Функция да пресмята косинуса на даден ъгъл"
+
+#~ msgid "Function to calculate the tangent of a given angle"
+#~ msgstr "Функция да пресмята тангенса на даден ъгъл"
+
+#~ msgid "Secant"
+#~ msgstr "Секанта"
+
+#~ msgid "Cosecant"
+#~ msgstr "Косеканта"
+
+#~ msgid "Cotangent"
+#~ msgstr "Котангенс"
+
+#~ msgid "Hyperbolic sine"
+#~ msgstr "Хиперболичен синус"
+
+#~ msgid "Hyperbolic cosine"
+#~ msgstr "Хиперболичен косинус"
+
+#~ msgid "Hyperbolic tangent"
+#~ msgstr "Хиперболичен тангенс"
+
+#~ msgid "Hyperbolic secant"
+#~ msgstr "Хиперболична секанта"
+
+#~ msgid "Hyperbolic cosecant"
+#~ msgstr "Хиперболична косеканта"
+
+#~ msgid "Hyperbolic cotangent"
+#~ msgstr "Хиперболичен котангенс"
+
+#~ msgid "Arc sine"
+#~ msgstr "Аркус синус"
+
+#~ msgid "Arc cosine"
+#~ msgstr "Аркус косинус"
+
+#~ msgid "Arc tangent"
+#~ msgstr "Аркус тангенс"
+
+#~ msgid "Arc cotangent"
+#~ msgstr "Аркус котангенс"
+
+#~ msgid "Hyperbolic arc tangent"
+#~ msgstr "Хиперболичен аркус тангенс"
+
+#, fuzzy
+#~| msgctxt "@item:inmenu"
+#~| msgid "Normal"
+#~ msgid "For all"
+#~ msgstr "Нормално"
+
+#, fuzzy
+#~| msgid "List"
+#~ msgid "Exists"
+#~ msgstr "Списък"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Description"
+#~ msgid "Differentiation"
+#~ msgstr "Описание"
+
+#~ msgid "Hyperbolic arc sine"
+#~ msgstr "Хиперболичен аркус синус"
+
+#~ msgid "Hyperbolic arc cosine"
+#~ msgstr "Хиперболичен аркус косинус"
+
+#, fuzzy
+#~| msgid "Arc cosine"
+#~ msgid "Arc cosecant"
+#~ msgstr "Аркус косинус"
+
+#, fuzzy
+#~| msgid "Hyperbolic cosecant"
+#~ msgid "Hyperbolic arc cosecant"
+#~ msgstr "Хиперболична косеканта"
+
+#, fuzzy
+#~| msgid "Arc cotangent"
+#~ msgid "Arc secant"
+#~ msgstr "Аркус котангенс"
+
+#, fuzzy
+#~| msgid "Hyperbolic cosecant"
+#~ msgid "Hyperbolic arc secant"
+#~ msgstr "Хиперболична косеканта"
+
+#~ msgid "Exponent (e^x)"
+#~ msgstr "Експонента (e^x)"
+
+#~ msgid "Base-e logarithm"
+#~ msgstr "Логаритъм с основа числото е"
+
+#~ msgid "Base-10 logarithm"
+#~ msgstr "Логаритъм с основа числото 10"
+
+#~ msgid "Absolute value. abs(n)=|n|"
+#~ msgstr "Абсолютна стойност. abs(n)=|n|"
+
+#~ msgid "Minimum"
+#~ msgstr "Минимум"
+
+#~ msgid "Maximum"
+#~ msgstr "Максимум"
+
+#~ msgid "Greater than. gt(a,b)=a>b"
+#~ msgstr "По-голямо от. gt(a,b)=a>b"
+
+#~ msgid "Less than. lt(a,b)=a<b"
+#~ msgstr "По-малко от. lt(a,b)=a<b"
+
+#, fuzzy
+#~| msgid "Not equal. neq(a,b)=a≠b"
+#~ msgid "Equal. eq(a,b) = a=b"
+#~ msgstr "Неравно на. neq(a,b)=a≠b"
+
+#~ msgid "Approximation. approx(a)=a±n"
+#~ msgstr "Приблизително. approx(a)=a±n"
+
+#~ msgid "Not equal. neq(a,b)=a≠b"
+#~ msgstr "Неравно на. neq(a,b)=a≠b"
+
+#~ msgid "Greater or equal. geq(a,b)=a≥b"
+#~ msgstr "По-голямо или равно на. geq(a,b)=a≥b"
+
+#~ msgid "Less or equal. leq(a,b)=a≤b"
+#~ msgstr "По-малко или равно на. leq(a,b)=a≤b"
+
+#, fuzzy
+#~| msgid "Multiplication"
+#~ msgid "Boolean implication"
+#~ msgstr "Умножение"
+
+#~ msgid "Greatest common divisor"
+#~ msgstr "Най-голям общ делител"
+
+#~ msgid "Least common multiple"
+#~ msgstr "Най-малко общо кратно "
+
+#~ msgid "Root"
+#~ msgstr "Корен"
+
+#~ msgid "Cardinal"
+#~ msgstr "Кардинал"
+
+#~ msgid "Scalar product"
+#~ msgstr "Скаларен резултат"
+
+#~ msgctxt "n-ary function prototype"
+#~ msgid "<em>%1</em>(..., <b>par%2</b>, ...)"
+#~ msgstr "<em>%1</em>(..., <b>par%2</b>, ...)"
+
+#~ msgctxt "Function name in function prototype"
+#~ msgid "<em>%1</em>("
+#~ msgstr "<em>%1</em>("
+
+#~ msgctxt "Uncorrect function name in function prototype"
+#~ msgid "<em style='color:red'><b>%1</b></em>("
+#~ msgstr "<em style='color:red'><b>%1</b></em>("
+
+#~ msgctxt "Parameter in function prototype"
+#~ msgid "par%1"
+#~ msgstr "par%1"
+
+#~ msgctxt "Current parameter in function prototype"
+#~ msgid "<b>%1</b>"
+#~ msgstr "<b>%1</b>"
+
+#~ msgctxt "Function parameter separator"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "Current parameter is the bounding"
+#~ msgid " : bounds"
+#~ msgstr " : граници"
+
+#~ msgctxt "@title:column"
+#~ msgid "Value"
+#~ msgstr "Стойност"
+
+#, fuzzy
+#~| msgid ", "
+#~ msgctxt "identifier separator in error message"
+#~ msgid "', '"
+#~ msgstr ", "
+
+#~ msgid "We can only declare variables"
+#~ msgstr "Могат да се декларират само променливите"
+
+#, fuzzy
+#~| msgid "Enter a name for the new variable"
+#~ msgid "Incoherent type for the variable '%1'"
+#~ msgstr "Въведете име за новата променлива"
+
+#~ msgctxt "html representation of an operator"
+#~ msgid "<span class='op'>%1</span>"
+#~ msgstr "<span class='op'>%1</span>"
+
+#, fuzzy
+#~| msgctxt "html representation of an operator"
+#~| msgid "<span class='op'>%1</span>"
+#~ msgctxt "html representation of an operator"
+#~ msgid "<span class='keyword'>%1</span>"
+#~ msgstr "<span class='op'>%1</span>"
+
+#~ msgid "Invalid index for a container"
+#~ msgstr "Неправилен индекс за контейнер"
+
+#~ msgctxt "Uncorrect function name in function prototype"
+#~ msgid "<em style='color:red'>%1</em>("
+#~ msgstr "<em style='color:red'>%1</em>("
+
+#~ msgid "Subtraction"
+#~ msgstr "Изваждане"
+
+#~ msgid ""
+#~ "%1\n"
+#~ "Error: %2"
+#~ msgstr ""
+#~ "%1\n"
+#~ "Грешка: %2"
+
+#~ msgid "Select an element from a container"
+#~ msgstr "Изберете елемент от контейнера"
+
+#~ msgid "Error: We need values to draw a graph"
+#~ msgstr "Грешка: Нуждаем се от стойности, за да нарисуваме диаграма"
+
+#~ msgid "Generating... Please wait"
+#~ msgstr "Генериране... Моля, изчакайте"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Save Log"
+#~ msgstr "&Запис на журнал"
+
+#, fuzzy
+#~| msgctxt "@item:inmenu"
+#~| msgid "Fine"
+#~ msgid "File"
+#~ msgstr "Добре"
+
+#, fuzzy
+#~| msgid "We can only declare variables"
+#~ msgid "We can only call functions"
+#~ msgstr "Могат да се декларират само променливите"
+
+#~ msgctxt "html representation of a number"
+#~ msgid "<span class='num'>%1</span>"
+#~ msgstr "<span class='num'>%1</span>"
+
+#~ msgid "Mode"
+#~ msgstr "Режим"
+
+#~ msgid "Save the expression"
+#~ msgstr "Запис на израз"
+
+#~ msgid "Calculate the expression"
+#~ msgstr "Пресмятане на израз"
+
+#~ msgid "%1:=%2"
+#~ msgstr "%1:=%2"
+
+#~ msgid "Cannot have downlimit ≥ uplimit"
+#~ msgstr "Ограничение за качване ≥ ограничение за сваляне"
+
+#~ msgid "<b style='color:red'>%1</b>"
+#~ msgstr "<b style='color:red'>%1</b>"
